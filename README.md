@@ -1,2 +1,0 @@
-# ProjectHermes
-Endava Challenge
