@@ -1,0 +1,17 @@
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\bin\Debug\net6.0-windows\ProjectHermes.exe
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\bin\Debug\net6.0-windows\ProjectHermes.deps.json
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\bin\Debug\net6.0-windows\ProjectHermes.runtimeconfig.json
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\bin\Debug\net6.0-windows\ProjectHermes.dll
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\bin\Debug\net6.0-windows\ref\ProjectHermes.dll
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\bin\Debug\net6.0-windows\ProjectHermes.pdb
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\net6.0-windows\ProjectHermes.csproj.AssemblyReference.cache
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\net6.0-windows\ProjectHermes.Form1.resources
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\net6.0-windows\ProjectHermes.csproj.GenerateResource.cache
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\net6.0-windows\ProjectHermes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\net6.0-windows\ProjectHermes.AssemblyInfoInputs.cache
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\net6.0-windows\ProjectHermes.AssemblyInfo.cs
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\net6.0-windows\ProjectHermes.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\net6.0-windows\ProjectHermes.dll
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\net6.0-windows\ref\ProjectHermes.dll
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\net6.0-windows\ProjectHermes.pdb
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\net6.0-windows\ProjectHermes.genruntimeconfig.cache

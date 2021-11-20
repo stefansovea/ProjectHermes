@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stefan\\source\\repos\\ProjectHermes\\ProjectHermes\\ProjectHermes.csproj",
+      "projectUniqueName": "C:\\Users\\Stefan\\Documents\\GitHub\\ProjectHermes\\ProjectHermes\\ProjectHermes.csproj",
       "projectName": "ProjectHermes",
-      "projectPath": "C:\\Users\\Stefan\\source\\repos\\ProjectHermes\\ProjectHermes\\ProjectHermes.csproj",
+      "projectPath": "C:\\Users\\Stefan\\Documents\\GitHub\\ProjectHermes\\ProjectHermes\\ProjectHermes.csproj",
       "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stefan\\source\\repos\\ProjectHermes\\ProjectHermes\\obj\\",
+      "outputPath": "C:\\Users\\Stefan\\Documents\\GitHub\\ProjectHermes\\ProjectHermes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
