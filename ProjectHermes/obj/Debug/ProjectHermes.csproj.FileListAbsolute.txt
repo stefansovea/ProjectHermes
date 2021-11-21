@@ -1,0 +1,12 @@
+C:\Users\enach\OneDrive\Desktop\EndavaHackathon\ProjectHermes\bin\Debug\ProjectHermes.exe.config
+C:\Users\enach\OneDrive\Desktop\EndavaHackathon\ProjectHermes\bin\Debug\ProjectHermes.exe
+C:\Users\enach\OneDrive\Desktop\EndavaHackathon\ProjectHermes\bin\Debug\ProjectHermes.pdb
+C:\Users\enach\OneDrive\Desktop\EndavaHackathon\ProjectHermes\obj\Debug\ProjectHermes.csproj.SuggestedBindingRedirects.cache
+C:\Users\enach\OneDrive\Desktop\EndavaHackathon\ProjectHermes\obj\Debug\ProjectHermes.FormAutentificare.resources
+C:\Users\enach\OneDrive\Desktop\EndavaHackathon\ProjectHermes\obj\Debug\ProjectHermes.Properties.Resources.resources
+C:\Users\enach\OneDrive\Desktop\EndavaHackathon\ProjectHermes\obj\Debug\ProjectHermes.csproj.GenerateResource.cache
+C:\Users\enach\OneDrive\Desktop\EndavaHackathon\ProjectHermes\obj\Debug\ProjectHermes.csproj.CoreCompileInputs.cache
+C:\Users\enach\OneDrive\Desktop\EndavaHackathon\ProjectHermes\obj\Debug\ProjectHermes.exe
+C:\Users\enach\OneDrive\Desktop\EndavaHackathon\ProjectHermes\obj\Debug\ProjectHermes.pdb
+C:\Users\enach\OneDrive\Desktop\EndavaHackathon\ProjectHermes\obj\Debug\ProjectHermes.csproj.AssemblyReference.cache
+C:\Users\enach\OneDrive\Desktop\EndavaHackathon\ProjectHermes\obj\Debug\ProjectHermes.FormElev.resources
