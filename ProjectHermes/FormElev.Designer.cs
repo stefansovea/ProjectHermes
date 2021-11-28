@@ -48,12 +48,12 @@
             this.lblContactTitlu = new System.Windows.Forms.Label();
             this.detaliiPersonale = new System.Windows.Forms.TabPage();
             this.lblDetaliiPersonaleTitlu = new System.Windows.Forms.Label();
-            this.btnAvizier = new Guna.UI2.WinForms.Guna2TileButton();
-            this.btnSolicitareActe = new Guna.UI2.WinForms.Guna2TileButton();
-            this.btnAcademic = new Guna.UI2.WinForms.Guna2TileButton();
-            this.btnSituatieScolara = new Guna.UI2.WinForms.Guna2TileButton();
-            this.btnContact = new Guna.UI2.WinForms.Guna2TileButton();
-            this.btnDetaliiPersonale = new Guna.UI2.WinForms.Guna2TileButton();
+            this.btnAvizierElev = new Guna.UI2.WinForms.Guna2TileButton();
+            this.btnSolicitareActeElev = new Guna.UI2.WinForms.Guna2TileButton();
+            this.btnAcademicElev = new Guna.UI2.WinForms.Guna2TileButton();
+            this.btnSituatieScolaraElev = new Guna.UI2.WinForms.Guna2TileButton();
+            this.btnContactElev = new Guna.UI2.WinForms.Guna2TileButton();
+            this.btnDetaliiPersonaleElev = new Guna.UI2.WinForms.Guna2TileButton();
             this.elevMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.elevClose = new Guna.UI2.WinForms.Guna2ControlBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoElev)).BeginInit();
@@ -77,7 +77,7 @@
             this.pictureBoxLogoElev.Location = new System.Drawing.Point(0, 0);
             this.pictureBoxLogoElev.Name = "pictureBoxLogoElev";
             this.pictureBoxLogoElev.ShadowDecoration.Parent = this.pictureBoxLogoElev;
-            this.pictureBoxLogoElev.Size = new System.Drawing.Size(239, 125);
+            this.pictureBoxLogoElev.Size = new System.Drawing.Size(240, 125);
             this.pictureBoxLogoElev.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxLogoElev.TabIndex = 0;
             this.pictureBoxLogoElev.TabStop = false;
@@ -175,7 +175,7 @@
             this.labelHomepage.AutoSize = true;
             this.labelHomepage.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelHomepage.ForeColor = System.Drawing.Color.White;
-            this.labelHomepage.Location = new System.Drawing.Point(313, 346);
+            this.labelHomepage.Location = new System.Drawing.Point(312, 346);
             this.labelHomepage.Name = "labelHomepage";
             this.labelHomepage.Size = new System.Drawing.Size(358, 105);
             this.labelHomepage.TabIndex = 1;
@@ -336,137 +336,137 @@
             this.lblDetaliiPersonaleTitlu.Text = "Detalii Personale";
             this.lblDetaliiPersonaleTitlu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnAvizier
+            // btnAvizierElev
             // 
-            this.btnAvizier.Animated = true;
-            this.btnAvizier.CheckedState.Parent = this.btnAvizier;
-            this.btnAvizier.CustomImages.Parent = this.btnAvizier;
-            this.btnAvizier.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAvizier.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAvizier.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAvizier.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAvizier.DisabledState.Parent = this.btnAvizier;
-            this.btnAvizier.FillColor = System.Drawing.SystemColors.HotTrack;
-            this.btnAvizier.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAvizier.ForeColor = System.Drawing.Color.White;
-            this.btnAvizier.HoverState.Parent = this.btnAvizier;
-            this.btnAvizier.Location = new System.Drawing.Point(0, 239);
-            this.btnAvizier.Name = "btnAvizier";
-            this.btnAvizier.ShadowDecoration.Parent = this.btnAvizier;
-            this.btnAvizier.Size = new System.Drawing.Size(239, 97);
-            this.btnAvizier.TabIndex = 3;
-            this.btnAvizier.Text = "Avizier";
-            this.btnAvizier.Click += new System.EventHandler(this.btnAvizier_Click);
+            this.btnAvizierElev.Animated = true;
+            this.btnAvizierElev.CheckedState.Parent = this.btnAvizierElev;
+            this.btnAvizierElev.CustomImages.Parent = this.btnAvizierElev;
+            this.btnAvizierElev.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAvizierElev.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAvizierElev.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAvizierElev.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAvizierElev.DisabledState.Parent = this.btnAvizierElev;
+            this.btnAvizierElev.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.btnAvizierElev.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAvizierElev.ForeColor = System.Drawing.Color.White;
+            this.btnAvizierElev.HoverState.Parent = this.btnAvizierElev;
+            this.btnAvizierElev.Location = new System.Drawing.Point(0, 239);
+            this.btnAvizierElev.Name = "btnAvizierElev";
+            this.btnAvizierElev.ShadowDecoration.Parent = this.btnAvizierElev;
+            this.btnAvizierElev.Size = new System.Drawing.Size(240, 97);
+            this.btnAvizierElev.TabIndex = 3;
+            this.btnAvizierElev.Text = "Avizier";
+            this.btnAvizierElev.Click += new System.EventHandler(this.btnAvizier_Click);
             // 
-            // btnSolicitareActe
+            // btnSolicitareActeElev
             // 
-            this.btnSolicitareActe.Animated = true;
-            this.btnSolicitareActe.CheckedState.Parent = this.btnSolicitareActe;
-            this.btnSolicitareActe.CustomImages.Parent = this.btnSolicitareActe;
-            this.btnSolicitareActe.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSolicitareActe.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSolicitareActe.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSolicitareActe.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSolicitareActe.DisabledState.Parent = this.btnSolicitareActe;
-            this.btnSolicitareActe.FillColor = System.Drawing.SystemColors.HotTrack;
-            this.btnSolicitareActe.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSolicitareActe.ForeColor = System.Drawing.Color.White;
-            this.btnSolicitareActe.HoverState.Parent = this.btnSolicitareActe;
-            this.btnSolicitareActe.Location = new System.Drawing.Point(0, 342);
-            this.btnSolicitareActe.Name = "btnSolicitareActe";
-            this.btnSolicitareActe.ShadowDecoration.Parent = this.btnSolicitareActe;
-            this.btnSolicitareActe.Size = new System.Drawing.Size(239, 97);
-            this.btnSolicitareActe.TabIndex = 4;
-            this.btnSolicitareActe.Text = "Solicitare Acte";
-            this.btnSolicitareActe.Click += new System.EventHandler(this.btnSolicitareActe_Click);
+            this.btnSolicitareActeElev.Animated = true;
+            this.btnSolicitareActeElev.CheckedState.Parent = this.btnSolicitareActeElev;
+            this.btnSolicitareActeElev.CustomImages.Parent = this.btnSolicitareActeElev;
+            this.btnSolicitareActeElev.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSolicitareActeElev.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSolicitareActeElev.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSolicitareActeElev.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSolicitareActeElev.DisabledState.Parent = this.btnSolicitareActeElev;
+            this.btnSolicitareActeElev.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSolicitareActeElev.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSolicitareActeElev.ForeColor = System.Drawing.Color.White;
+            this.btnSolicitareActeElev.HoverState.Parent = this.btnSolicitareActeElev;
+            this.btnSolicitareActeElev.Location = new System.Drawing.Point(0, 342);
+            this.btnSolicitareActeElev.Name = "btnSolicitareActeElev";
+            this.btnSolicitareActeElev.ShadowDecoration.Parent = this.btnSolicitareActeElev;
+            this.btnSolicitareActeElev.Size = new System.Drawing.Size(240, 97);
+            this.btnSolicitareActeElev.TabIndex = 4;
+            this.btnSolicitareActeElev.Text = "Solicitare Acte";
+            this.btnSolicitareActeElev.Click += new System.EventHandler(this.btnSolicitareActe_Click);
             // 
-            // btnAcademic
+            // btnAcademicElev
             // 
-            this.btnAcademic.Animated = true;
-            this.btnAcademic.CheckedState.Parent = this.btnAcademic;
-            this.btnAcademic.CustomImages.Parent = this.btnAcademic;
-            this.btnAcademic.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAcademic.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAcademic.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAcademic.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAcademic.DisabledState.Parent = this.btnAcademic;
-            this.btnAcademic.FillColor = System.Drawing.SystemColors.HotTrack;
-            this.btnAcademic.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAcademic.ForeColor = System.Drawing.Color.White;
-            this.btnAcademic.HoverState.Parent = this.btnAcademic;
-            this.btnAcademic.Location = new System.Drawing.Point(0, 445);
-            this.btnAcademic.Name = "btnAcademic";
-            this.btnAcademic.ShadowDecoration.Parent = this.btnAcademic;
-            this.btnAcademic.Size = new System.Drawing.Size(239, 97);
-            this.btnAcademic.TabIndex = 5;
-            this.btnAcademic.Text = "Academic";
-            this.btnAcademic.Click += new System.EventHandler(this.guna2TileButton3_Click);
+            this.btnAcademicElev.Animated = true;
+            this.btnAcademicElev.CheckedState.Parent = this.btnAcademicElev;
+            this.btnAcademicElev.CustomImages.Parent = this.btnAcademicElev;
+            this.btnAcademicElev.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAcademicElev.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAcademicElev.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAcademicElev.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAcademicElev.DisabledState.Parent = this.btnAcademicElev;
+            this.btnAcademicElev.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.btnAcademicElev.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAcademicElev.ForeColor = System.Drawing.Color.White;
+            this.btnAcademicElev.HoverState.Parent = this.btnAcademicElev;
+            this.btnAcademicElev.Location = new System.Drawing.Point(0, 445);
+            this.btnAcademicElev.Name = "btnAcademicElev";
+            this.btnAcademicElev.ShadowDecoration.Parent = this.btnAcademicElev;
+            this.btnAcademicElev.Size = new System.Drawing.Size(239, 97);
+            this.btnAcademicElev.TabIndex = 5;
+            this.btnAcademicElev.Text = "Academic";
+            this.btnAcademicElev.Click += new System.EventHandler(this.guna2TileButton3_Click);
             // 
-            // btnSituatieScolara
+            // btnSituatieScolaraElev
             // 
-            this.btnSituatieScolara.Animated = true;
-            this.btnSituatieScolara.CheckedState.Parent = this.btnSituatieScolara;
-            this.btnSituatieScolara.CustomImages.Parent = this.btnSituatieScolara;
-            this.btnSituatieScolara.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSituatieScolara.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSituatieScolara.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSituatieScolara.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSituatieScolara.DisabledState.Parent = this.btnSituatieScolara;
-            this.btnSituatieScolara.FillColor = System.Drawing.SystemColors.HotTrack;
-            this.btnSituatieScolara.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSituatieScolara.ForeColor = System.Drawing.Color.White;
-            this.btnSituatieScolara.HoverState.Parent = this.btnSituatieScolara;
-            this.btnSituatieScolara.Location = new System.Drawing.Point(0, 548);
-            this.btnSituatieScolara.Name = "btnSituatieScolara";
-            this.btnSituatieScolara.ShadowDecoration.Parent = this.btnSituatieScolara;
-            this.btnSituatieScolara.Size = new System.Drawing.Size(239, 97);
-            this.btnSituatieScolara.TabIndex = 6;
-            this.btnSituatieScolara.Text = "Situatie Scolara";
-            this.btnSituatieScolara.Click += new System.EventHandler(this.btnSituatieScolara_Click);
+            this.btnSituatieScolaraElev.Animated = true;
+            this.btnSituatieScolaraElev.CheckedState.Parent = this.btnSituatieScolaraElev;
+            this.btnSituatieScolaraElev.CustomImages.Parent = this.btnSituatieScolaraElev;
+            this.btnSituatieScolaraElev.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSituatieScolaraElev.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSituatieScolaraElev.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSituatieScolaraElev.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSituatieScolaraElev.DisabledState.Parent = this.btnSituatieScolaraElev;
+            this.btnSituatieScolaraElev.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSituatieScolaraElev.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSituatieScolaraElev.ForeColor = System.Drawing.Color.White;
+            this.btnSituatieScolaraElev.HoverState.Parent = this.btnSituatieScolaraElev;
+            this.btnSituatieScolaraElev.Location = new System.Drawing.Point(0, 548);
+            this.btnSituatieScolaraElev.Name = "btnSituatieScolaraElev";
+            this.btnSituatieScolaraElev.ShadowDecoration.Parent = this.btnSituatieScolaraElev;
+            this.btnSituatieScolaraElev.Size = new System.Drawing.Size(240, 97);
+            this.btnSituatieScolaraElev.TabIndex = 6;
+            this.btnSituatieScolaraElev.Text = "Situatie Scolara";
+            this.btnSituatieScolaraElev.Click += new System.EventHandler(this.btnSituatieScolara_Click);
             // 
-            // btnContact
+            // btnContactElev
             // 
-            this.btnContact.Animated = true;
-            this.btnContact.CheckedState.Parent = this.btnContact;
-            this.btnContact.CustomImages.Parent = this.btnContact;
-            this.btnContact.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnContact.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnContact.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnContact.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnContact.DisabledState.Parent = this.btnContact;
-            this.btnContact.FillColor = System.Drawing.SystemColors.HotTrack;
-            this.btnContact.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnContact.ForeColor = System.Drawing.Color.White;
-            this.btnContact.HoverState.Parent = this.btnContact;
-            this.btnContact.Location = new System.Drawing.Point(0, 651);
-            this.btnContact.Name = "btnContact";
-            this.btnContact.ShadowDecoration.Parent = this.btnContact;
-            this.btnContact.Size = new System.Drawing.Size(239, 97);
-            this.btnContact.TabIndex = 7;
-            this.btnContact.Text = "Contact";
-            this.btnContact.Click += new System.EventHandler(this.btnContact_Click);
+            this.btnContactElev.Animated = true;
+            this.btnContactElev.CheckedState.Parent = this.btnContactElev;
+            this.btnContactElev.CustomImages.Parent = this.btnContactElev;
+            this.btnContactElev.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnContactElev.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnContactElev.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnContactElev.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnContactElev.DisabledState.Parent = this.btnContactElev;
+            this.btnContactElev.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.btnContactElev.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContactElev.ForeColor = System.Drawing.Color.White;
+            this.btnContactElev.HoverState.Parent = this.btnContactElev;
+            this.btnContactElev.Location = new System.Drawing.Point(0, 651);
+            this.btnContactElev.Name = "btnContactElev";
+            this.btnContactElev.ShadowDecoration.Parent = this.btnContactElev;
+            this.btnContactElev.Size = new System.Drawing.Size(240, 97);
+            this.btnContactElev.TabIndex = 7;
+            this.btnContactElev.Text = "Contact";
+            this.btnContactElev.Click += new System.EventHandler(this.btnContact_Click);
             // 
-            // btnDetaliiPersonale
+            // btnDetaliiPersonaleElev
             // 
-            this.btnDetaliiPersonale.Animated = true;
-            this.btnDetaliiPersonale.CheckedState.Parent = this.btnDetaliiPersonale;
-            this.btnDetaliiPersonale.CustomImages.Parent = this.btnDetaliiPersonale;
-            this.btnDetaliiPersonale.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnDetaliiPersonale.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnDetaliiPersonale.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnDetaliiPersonale.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnDetaliiPersonale.DisabledState.Parent = this.btnDetaliiPersonale;
-            this.btnDetaliiPersonale.FillColor = System.Drawing.SystemColors.HotTrack;
-            this.btnDetaliiPersonale.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetaliiPersonale.ForeColor = System.Drawing.Color.White;
-            this.btnDetaliiPersonale.HoverState.Parent = this.btnDetaliiPersonale;
-            this.btnDetaliiPersonale.Location = new System.Drawing.Point(0, 754);
-            this.btnDetaliiPersonale.Name = "btnDetaliiPersonale";
-            this.btnDetaliiPersonale.ShadowDecoration.Parent = this.btnDetaliiPersonale;
-            this.btnDetaliiPersonale.Size = new System.Drawing.Size(239, 97);
-            this.btnDetaliiPersonale.TabIndex = 8;
-            this.btnDetaliiPersonale.Text = "Detalii Personale";
-            this.btnDetaliiPersonale.Click += new System.EventHandler(this.btnDetaliiPersonale_Click);
+            this.btnDetaliiPersonaleElev.Animated = true;
+            this.btnDetaliiPersonaleElev.CheckedState.Parent = this.btnDetaliiPersonaleElev;
+            this.btnDetaliiPersonaleElev.CustomImages.Parent = this.btnDetaliiPersonaleElev;
+            this.btnDetaliiPersonaleElev.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDetaliiPersonaleElev.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDetaliiPersonaleElev.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDetaliiPersonaleElev.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDetaliiPersonaleElev.DisabledState.Parent = this.btnDetaliiPersonaleElev;
+            this.btnDetaliiPersonaleElev.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.btnDetaliiPersonaleElev.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetaliiPersonaleElev.ForeColor = System.Drawing.Color.White;
+            this.btnDetaliiPersonaleElev.HoverState.Parent = this.btnDetaliiPersonaleElev;
+            this.btnDetaliiPersonaleElev.Location = new System.Drawing.Point(0, 754);
+            this.btnDetaliiPersonaleElev.Name = "btnDetaliiPersonaleElev";
+            this.btnDetaliiPersonaleElev.ShadowDecoration.Parent = this.btnDetaliiPersonaleElev;
+            this.btnDetaliiPersonaleElev.Size = new System.Drawing.Size(240, 97);
+            this.btnDetaliiPersonaleElev.TabIndex = 8;
+            this.btnDetaliiPersonaleElev.Text = "Detalii Personale";
+            this.btnDetaliiPersonaleElev.Click += new System.EventHandler(this.btnDetaliiPersonale_Click);
             // 
             // elevMinimize
             // 
@@ -511,12 +511,12 @@
             this.ControlBox = false;
             this.Controls.Add(this.elevMinimize);
             this.Controls.Add(this.elevClose);
-            this.Controls.Add(this.btnContact);
-            this.Controls.Add(this.btnDetaliiPersonale);
-            this.Controls.Add(this.btnSituatieScolara);
-            this.Controls.Add(this.btnAcademic);
-            this.Controls.Add(this.btnSolicitareActe);
-            this.Controls.Add(this.btnAvizier);
+            this.Controls.Add(this.btnContactElev);
+            this.Controls.Add(this.btnDetaliiPersonaleElev);
+            this.Controls.Add(this.btnSituatieScolaraElev);
+            this.Controls.Add(this.btnAcademicElev);
+            this.Controls.Add(this.btnSolicitareActeElev);
+            this.Controls.Add(this.btnAvizierElev);
             this.Controls.Add(this.tabControlElev);
             this.Controls.Add(this.pictureBoxHeyStudent);
             this.Controls.Add(this.pictureBoxLogoElev);
@@ -554,12 +554,12 @@
         private Guna.UI2.WinForms.Guna2TabControl tabControlElev;
         private System.Windows.Forms.TabPage homePage;
         private System.Windows.Forms.TabPage avizier;
-        private Guna.UI2.WinForms.Guna2TileButton btnAvizier;
-        private Guna.UI2.WinForms.Guna2TileButton btnSolicitareActe;
-        private Guna.UI2.WinForms.Guna2TileButton btnAcademic;
-        private Guna.UI2.WinForms.Guna2TileButton btnSituatieScolara;
-        private Guna.UI2.WinForms.Guna2TileButton btnContact;
-        private Guna.UI2.WinForms.Guna2TileButton btnDetaliiPersonale;
+        private Guna.UI2.WinForms.Guna2TileButton btnAvizierElev;
+        private Guna.UI2.WinForms.Guna2TileButton btnSolicitareActeElev;
+        private Guna.UI2.WinForms.Guna2TileButton btnAcademicElev;
+        private Guna.UI2.WinForms.Guna2TileButton btnSituatieScolaraElev;
+        private Guna.UI2.WinForms.Guna2TileButton btnContactElev;
+        private Guna.UI2.WinForms.Guna2TileButton btnDetaliiPersonaleElev;
         private Guna.UI2.WinForms.Guna2ControlBox elevMinimize;
         private Guna.UI2.WinForms.Guna2ControlBox elevClose;
         private System.Windows.Forms.TabPage solicitareActe;
