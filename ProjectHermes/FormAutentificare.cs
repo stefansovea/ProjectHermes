@@ -31,13 +31,13 @@ namespace ProjectHermes
             {
                 adviceLabel.Visible = true;
                 adviceLabel.ForeColor = Color.Red;
-                adviceLabel.Text = nameLabel.Text + " trebuie sa contina cel putin " + nrCaractere + " caractere";
+              //  adviceLabel.Text = nameLabel.Text + " trebuie sa contina cel putin " + nrCaractere + " caractere";
             }
             else if (parola.Length < nrCaractere)
             {
                 adviceLabel.Visible = true;
                 adviceLabel.ForeColor = Color.Red;
-                adviceLabel.Text = passwordLabel.Text + " trebuie sa contina cel putin " + nrCaractere + " caractere";
+               // adviceLabel.Text = passwordLabel.Text + " trebuie sa contina cel putin " + nrCaractere + " caractere";
             }
             else if (nume == secretarUsername || nume == elevUsername || nume == profesorUsername)
             {
@@ -57,24 +57,24 @@ namespace ProjectHermes
                 adviceLabel.ForeColor = Color.Red;
                 adviceLabel.Text = "Exceptie nerezolvata!";
             }
-        }
+        }     
 
-        private void logInButton_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
             //Redirectionare catre formularul corespunzator
-            if (nameTextBox.Text == profesorUsername && passwordTextBox.Text == profesorPassword)
+            if (textBoxUsername.Text == profesorUsername && textBoxPassword.Text == profesorPassword)
             {
                 FormProfesor formProfesor = new FormProfesor();
                 formProfesor.Show();
                 this.Hide();
             }
-            else if(nameTextBox.Text == elevUsername && passwordTextBox.Text == elevPassword)
+            else if (textBoxUsername.Text == elevUsername && textBoxPassword.Text == elevPassword)
             {
                 FormElev formElev = new FormElev();
                 formElev.Show();
                 this.Hide();
             }
-            else if (nameTextBox.Text == secretarUsername && passwordTextBox.Text == secretarPassword)
+            else if (textBoxUsername.Text == secretarUsername && textBoxPassword.Text == secretarPassword)
             {
                 FormSecretar formSecretar = new FormSecretar();
                 formSecretar.Show();
@@ -82,7 +82,7 @@ namespace ProjectHermes
             }
             else
             {
-                ValidareImput(nameTextBox.Text, passwordTextBox.Text);
+                ValidareImput(textBoxUsername.Text, textBoxPassword.Text);
             }
         }
     }
