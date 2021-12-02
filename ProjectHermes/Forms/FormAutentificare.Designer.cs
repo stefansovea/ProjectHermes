@@ -87,7 +87,7 @@
             this.textBoxUsername.Name = "textBoxUsername";
             this.textBoxUsername.PasswordChar = '\0';
             this.textBoxUsername.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.textBoxUsername.PlaceholderText = "Input Username";
+            this.textBoxUsername.PlaceholderText = "Nume Utilizator";
             this.textBoxUsername.SelectedText = "";
             this.textBoxUsername.ShadowDecoration.Parent = this.textBoxUsername;
             this.textBoxUsername.Size = new System.Drawing.Size(200, 38);
@@ -113,7 +113,7 @@
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.textBoxPassword.PlaceholderText = "Input Password";
+            this.textBoxPassword.PlaceholderText = "Parola";
             this.textBoxPassword.SelectedText = "";
             this.textBoxPassword.ShadowDecoration.Parent = this.textBoxPassword;
             this.textBoxPassword.Size = new System.Drawing.Size(200, 38);
@@ -139,7 +139,7 @@
             this.btnLogin.ShadowDecoration.Parent = this.btnLogin;
             this.btnLogin.Size = new System.Drawing.Size(200, 51);
             this.btnLogin.TabIndex = 11;
-            this.btnLogin.Text = "Log In";
+            this.btnLogin.Text = "Autentificare";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // labelLogin

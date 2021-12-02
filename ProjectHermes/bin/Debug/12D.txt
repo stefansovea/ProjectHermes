@@ -1,0 +1,9 @@
+LUNI          | MARTI         | MIERCURI      | JOI           | VINERI
+08:00 - 08:50 | 08:00 - 08:50 | 08:00 - 08:50 | 08:00 - 08:50 | 08:00 - 08:50
+Istorie       | Matematica    | Dirigentie    | Informatica   | Franceza
+09:00 - 09:50 | 09:00 - 09:50 | 09:00 - 09:50 | 09:00 - 09:50 | 09:00 - 09:50
+Chimie        | Romana        | Informatica   | Informatica   | Matematica
+10:00 - 10:50 | 10:00 - 10:50 | 10:00 - 10:50 | 10:00 - 10:50 | 10:00 - 10:50
+Franceza      | Romana        | Matematica    | Engleza       | Matematica
+11:10 - 12:00 | 11:10 - 12:00 | 11:10 - 12:00 | 11:10 - 12:00 | 11:10 - 12:00
+Informatica   | Fizica        | Biologie      | Romana        | Engleza

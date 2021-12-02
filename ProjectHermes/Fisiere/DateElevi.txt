@@ -1,0 +1,10 @@
+﻿Elev01|Nume1|Prenume1|16|X|Uman|MatematicaInformatica|Romana:1 2 3 4 5;Matematica:2 3 4 5 5;Informatica:5 6 7 8 9 10;|Romana:2;Matematica:2;Informatica:10;|telefon|adresa|parola
+Elev02|Nume2|Prenume2|16|X|Uman|MatematicaInformatica|Romana:2 2 3 4 5;Matematica:2 3 4 5 5;Informatica:5 6 7 8 9;|Romana:2;Matematica:2;Informatica:10;|telefon|adresa|parola
+Elev03|Nume3|Prenume1|16|X|Uman|MatematicaInformatica|Romana:3 2 3 4 5;Matematica:2 3 4 5 67;Informatica:5 6 7 8 9;|Romana:3;Matematica:2;Informatica:5;|telefon|adresa|parola
+Elev04|Nume4|Prenume1|16|X|Uman|MatematicaInformatica|Romana:4 2 3 4 5;Matematica:2 3 4 5 6;Informatica:5 6 7 8 9;|Romana:4;Matematica:2;Informatica:5;|telefon|adresa|parola
+Elev05|Nume4|Prenume1|16|X|Uman|MatematicaInformatica|Romana:5 2 3 4 5;Matematica:2 3 4 5 6;Informatica:5 6 7 8 9;|Romana:5;Matematica:2;Informatica:5;|telefon|adresa|parola
+Elev06|Nume4|Prenume1|16|X|Uman|MatematicaInformatica|Romana:6 2 3 4 5;Matematica:2 3 4 5 6;Informatica:5 6 7 8 9;|Romana:6;Matematica:2;Informatica:5;|telefon|adresa|parola
+Elev07|Nume4|Prenume1|16|X|Uman|MatematicaInformatica|Romana:7 2 3 4 5;Matematica:2 3 4 5 6;Informatica:5 6 7 8 9;|Romana:7;Matematica:2;Informatica:5;|telefon|adresa|parola
+Elev08|Nume4|Prenume1|16|X|Uman|MatematicaInformatica|Romana:8 2 3 4 5;Matematica:2 3 4 5 6;Informatica:5 6 7 8 9;|Romana:8;Matematica:2;Informatica:5;|telefon|adresa|parola
+Elev09|Nume4|Prenume1|16|X|Uman|MatematicaInformatica|Romana:9 2 3 4 5;Matematica:2 3 4 5 6;Informatica:5 6 7 8 9;|Romana:9;Matematica:2;Informatica:5;|telefon|adresa|parola
+Elev10|Nume4|Prenume1|16|X|Uman|MatematicaInformatica|Romana:10 2 3 4 5;Matematica:2 3 4 5 6;Informatica:5 6 7 8 9;|Romana:10;Matematica:2;Informatica:5;|telefon|adresa|parola

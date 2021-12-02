@@ -7,11 +7,11 @@ C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHe
 C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.csproj.SuggestedBindingRedirects.cache
 C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.FormAutentificare.resources
 C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.FormElev.resources
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.FormProfesor.resources
+C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.FormSecretar.resources
 C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.Properties.Resources.resources
 C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.csproj.GenerateResource.cache
 C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.csproj.CoreCompileInputs.cache
 C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.csproj.CopyComplete
 C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.exe
 C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.pdb
-C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.FormProfesor.resources
-C:\Users\Stefan\Documents\GitHub\ProjectHermes\ProjectHermes\obj\Debug\ProjectHermes.FormSecretar.resources

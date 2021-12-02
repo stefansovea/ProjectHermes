@@ -28,6 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle64 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnContactProf = new Guna.UI2.WinForms.Guna2TileButton();
             this.btnDetaliiPersonaleProf = new Guna.UI2.WinForms.Guna2TileButton();
             this.btnNotareProf = new Guna.UI2.WinForms.Guna2TileButton();
@@ -56,6 +64,18 @@
             this.lblContactTitluProf = new System.Windows.Forms.Label();
             this.detaliiPersonaleProf = new System.Windows.Forms.TabPage();
             this.lblDetaliiPersonaleTitluProf = new System.Windows.Forms.Label();
+            this.AfisareTileButton = new Guna.UI2.WinForms.Guna2TileButton();
+            this.SalvareTileButton = new Guna.UI2.WinForms.Guna2TileButton();
+            this.SearchTileButton = new Guna.UI2.WinForms.Guna2TileButton();
+            this.SearchTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.ListBoxElevi = new System.Windows.Forms.ListBox();
+            this.SearchtextBoxPrezenta = new System.Windows.Forms.TextBox();
+            this.listBoxPrezenta = new System.Windows.Forms.ListBox();
+            this.SalvareTileButtonPrezenta = new Guna.UI2.WinForms.Guna2TileButton();
+            this.AfisareTileButtonPrezenta = new Guna.UI2.WinForms.Guna2TileButton();
+            this.SearchTileButtonPrezenta = new Guna.UI2.WinForms.Guna2TileButton();
+            this.DataGridViewPrezenta = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.NoteDataGridView = new Guna.UI2.WinForms.Guna2DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHeyTeacher)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoTeacher)).BeginInit();
             this.tabControlProf.SuspendLayout();
@@ -67,6 +87,8 @@
             this.academicProf.SuspendLayout();
             this.contactProf.SuspendLayout();
             this.detaliiPersonaleProf.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewPrezenta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NoteDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // btnContactProf
@@ -389,6 +411,12 @@
             // prezentaProf
             // 
             this.prezentaProf.BackColor = System.Drawing.Color.Black;
+            this.prezentaProf.Controls.Add(this.DataGridViewPrezenta);
+            this.prezentaProf.Controls.Add(this.SearchtextBoxPrezenta);
+            this.prezentaProf.Controls.Add(this.listBoxPrezenta);
+            this.prezentaProf.Controls.Add(this.SalvareTileButtonPrezenta);
+            this.prezentaProf.Controls.Add(this.AfisareTileButtonPrezenta);
+            this.prezentaProf.Controls.Add(this.SearchTileButtonPrezenta);
             this.prezentaProf.Controls.Add(this.lblPrezentaTitluProf);
             this.prezentaProf.Location = new System.Drawing.Point(4, 4);
             this.prezentaProf.Name = "prezentaProf";
@@ -411,6 +439,12 @@
             // notareProf
             // 
             this.notareProf.BackColor = System.Drawing.Color.Black;
+            this.notareProf.Controls.Add(this.NoteDataGridView);
+            this.notareProf.Controls.Add(this.AfisareTileButton);
+            this.notareProf.Controls.Add(this.SalvareTileButton);
+            this.notareProf.Controls.Add(this.SearchTileButton);
+            this.notareProf.Controls.Add(this.SearchTextBox);
+            this.notareProf.Controls.Add(this.ListBoxElevi);
             this.notareProf.Controls.Add(this.lblNotareTitluProf);
             this.notareProf.Location = new System.Drawing.Point(4, 4);
             this.notareProf.Name = "notareProf";
@@ -496,6 +530,337 @@
             this.lblDetaliiPersonaleTitluProf.Text = "Detalii Personale";
             this.lblDetaliiPersonaleTitluProf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // AfisareTileButton
+            // 
+            this.AfisareTileButton.Animated = true;
+            this.AfisareTileButton.CheckedState.Parent = this.AfisareTileButton;
+            this.AfisareTileButton.CustomImages.Parent = this.AfisareTileButton;
+            this.AfisareTileButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.AfisareTileButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.AfisareTileButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AfisareTileButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.AfisareTileButton.DisabledState.Parent = this.AfisareTileButton;
+            this.AfisareTileButton.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.AfisareTileButton.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.AfisareTileButton.ForeColor = System.Drawing.Color.White;
+            this.AfisareTileButton.HoverState.Parent = this.AfisareTileButton;
+            this.AfisareTileButton.Location = new System.Drawing.Point(6, 232);
+            this.AfisareTileButton.Name = "AfisareTileButton";
+            this.AfisareTileButton.ShadowDecoration.Parent = this.AfisareTileButton;
+            this.AfisareTileButton.Size = new System.Drawing.Size(104, 31);
+            this.AfisareTileButton.TabIndex = 19;
+            this.AfisareTileButton.Text = "Afisare";
+            this.AfisareTileButton.Click += new System.EventHandler(this.AfisareTileButton_Click_1);
+            // 
+            // SalvareTileButton
+            // 
+            this.SalvareTileButton.Animated = true;
+            this.SalvareTileButton.CheckedState.Parent = this.SalvareTileButton;
+            this.SalvareTileButton.CustomImages.Parent = this.SalvareTileButton;
+            this.SalvareTileButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.SalvareTileButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.SalvareTileButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.SalvareTileButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.SalvareTileButton.DisabledState.Parent = this.SalvareTileButton;
+            this.SalvareTileButton.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.SalvareTileButton.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.SalvareTileButton.ForeColor = System.Drawing.Color.White;
+            this.SalvareTileButton.HoverState.Parent = this.SalvareTileButton;
+            this.SalvareTileButton.Location = new System.Drawing.Point(6, 270);
+            this.SalvareTileButton.Name = "SalvareTileButton";
+            this.SalvareTileButton.ShadowDecoration.Parent = this.SalvareTileButton;
+            this.SalvareTileButton.Size = new System.Drawing.Size(104, 31);
+            this.SalvareTileButton.TabIndex = 18;
+            this.SalvareTileButton.Text = "Salvare";
+            this.SalvareTileButton.Click += new System.EventHandler(this.SalvareTileButton_Click_1);
+            // 
+            // SearchTileButton
+            // 
+            this.SearchTileButton.Animated = true;
+            this.SearchTileButton.CheckedState.Parent = this.SearchTileButton;
+            this.SearchTileButton.CustomImages.Parent = this.SearchTileButton;
+            this.SearchTileButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.SearchTileButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.SearchTileButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.SearchTileButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.SearchTileButton.DisabledState.Parent = this.SearchTileButton;
+            this.SearchTileButton.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.SearchTileButton.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.SearchTileButton.ForeColor = System.Drawing.Color.White;
+            this.SearchTileButton.HoverState.Parent = this.SearchTileButton;
+            this.SearchTileButton.Location = new System.Drawing.Point(6, 205);
+            this.SearchTileButton.Name = "SearchTileButton";
+            this.SearchTileButton.ShadowDecoration.Parent = this.SearchTileButton;
+            this.SearchTileButton.Size = new System.Drawing.Size(104, 21);
+            this.SearchTileButton.TabIndex = 17;
+            this.SearchTileButton.Text = "Cautare";
+            this.SearchTileButton.Click += new System.EventHandler(this.SearchTileButton_Click_1);
+            // 
+            // SearchTextBox
+            // 
+            this.SearchTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.SearchTextBox.DefaultText = "";
+            this.SearchTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.SearchTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.SearchTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.SearchTextBox.DisabledState.Parent = this.SearchTextBox;
+            this.SearchTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.SearchTextBox.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.SearchTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.SearchTextBox.FocusedState.Parent = this.SearchTextBox;
+            this.SearchTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.SearchTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.SearchTextBox.HoverState.Parent = this.SearchTextBox;
+            this.SearchTextBox.Location = new System.Drawing.Point(116, 205);
+            this.SearchTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.SearchTextBox.Name = "SearchTextBox";
+            this.SearchTextBox.PasswordChar = '\0';
+            this.SearchTextBox.PlaceholderForeColor = System.Drawing.Color.White;
+            this.SearchTextBox.PlaceholderText = "Cautare dupa NUME!";
+            this.SearchTextBox.SelectedText = "";
+            this.SearchTextBox.ShadowDecoration.Parent = this.SearchTextBox;
+            this.SearchTextBox.Size = new System.Drawing.Size(900, 21);
+            this.SearchTextBox.TabIndex = 16;
+            // 
+            // ListBoxElevi
+            // 
+            this.ListBoxElevi.FormattingEnabled = true;
+            this.ListBoxElevi.Location = new System.Drawing.Point(116, 232);
+            this.ListBoxElevi.Margin = new System.Windows.Forms.Padding(2);
+            this.ListBoxElevi.Name = "ListBoxElevi";
+            this.ListBoxElevi.Size = new System.Drawing.Size(901, 69);
+            this.ListBoxElevi.TabIndex = 15;
+            this.ListBoxElevi.SelectedIndexChanged += new System.EventHandler(this.ListBoxElevi_SelectedIndexChanged);
+            // 
+            // SearchtextBoxPrezenta
+            // 
+            this.SearchtextBoxPrezenta.Location = new System.Drawing.Point(101, 205);
+            this.SearchtextBoxPrezenta.Margin = new System.Windows.Forms.Padding(2);
+            this.SearchtextBoxPrezenta.Name = "SearchtextBoxPrezenta";
+            this.SearchtextBoxPrezenta.Size = new System.Drawing.Size(914, 20);
+            this.SearchtextBoxPrezenta.TabIndex = 21;
+            // 
+            // listBoxPrezenta
+            // 
+            this.listBoxPrezenta.FormattingEnabled = true;
+            this.listBoxPrezenta.Location = new System.Drawing.Point(102, 233);
+            this.listBoxPrezenta.Margin = new System.Windows.Forms.Padding(2);
+            this.listBoxPrezenta.Name = "listBoxPrezenta";
+            this.listBoxPrezenta.Size = new System.Drawing.Size(914, 69);
+            this.listBoxPrezenta.TabIndex = 20;
+            // 
+            // SalvareTileButtonPrezenta
+            // 
+            this.SalvareTileButtonPrezenta.Animated = true;
+            this.SalvareTileButtonPrezenta.CheckedState.Parent = this.SalvareTileButtonPrezenta;
+            this.SalvareTileButtonPrezenta.CustomImages.Parent = this.SalvareTileButtonPrezenta;
+            this.SalvareTileButtonPrezenta.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.SalvareTileButtonPrezenta.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.SalvareTileButtonPrezenta.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.SalvareTileButtonPrezenta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.SalvareTileButtonPrezenta.DisabledState.Parent = this.SalvareTileButtonPrezenta;
+            this.SalvareTileButtonPrezenta.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.SalvareTileButtonPrezenta.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.SalvareTileButtonPrezenta.ForeColor = System.Drawing.Color.White;
+            this.SalvareTileButtonPrezenta.HoverState.Parent = this.SalvareTileButtonPrezenta;
+            this.SalvareTileButtonPrezenta.Location = new System.Drawing.Point(4, 268);
+            this.SalvareTileButtonPrezenta.Name = "SalvareTileButtonPrezenta";
+            this.SalvareTileButtonPrezenta.ShadowDecoration.Parent = this.SalvareTileButtonPrezenta;
+            this.SalvareTileButtonPrezenta.Size = new System.Drawing.Size(92, 33);
+            this.SalvareTileButtonPrezenta.TabIndex = 19;
+            this.SalvareTileButtonPrezenta.Text = "Salvare";
+            this.SalvareTileButtonPrezenta.Click += new System.EventHandler(this.SalvareTileButtonPrezenta_Click);
+            // 
+            // AfisareTileButtonPrezenta
+            // 
+            this.AfisareTileButtonPrezenta.Animated = true;
+            this.AfisareTileButtonPrezenta.CheckedState.Parent = this.AfisareTileButtonPrezenta;
+            this.AfisareTileButtonPrezenta.CustomImages.Parent = this.AfisareTileButtonPrezenta;
+            this.AfisareTileButtonPrezenta.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.AfisareTileButtonPrezenta.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.AfisareTileButtonPrezenta.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AfisareTileButtonPrezenta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.AfisareTileButtonPrezenta.DisabledState.Parent = this.AfisareTileButtonPrezenta;
+            this.AfisareTileButtonPrezenta.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.AfisareTileButtonPrezenta.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.AfisareTileButtonPrezenta.ForeColor = System.Drawing.Color.White;
+            this.AfisareTileButtonPrezenta.HoverState.Parent = this.AfisareTileButtonPrezenta;
+            this.AfisareTileButtonPrezenta.Location = new System.Drawing.Point(4, 229);
+            this.AfisareTileButtonPrezenta.Name = "AfisareTileButtonPrezenta";
+            this.AfisareTileButtonPrezenta.ShadowDecoration.Parent = this.AfisareTileButtonPrezenta;
+            this.AfisareTileButtonPrezenta.Size = new System.Drawing.Size(92, 32);
+            this.AfisareTileButtonPrezenta.TabIndex = 18;
+            this.AfisareTileButtonPrezenta.Text = "Afisare";
+            this.AfisareTileButtonPrezenta.Click += new System.EventHandler(this.AfisareTileButtonPrezenta_Click);
+            // 
+            // SearchTileButtonPrezenta
+            // 
+            this.SearchTileButtonPrezenta.Animated = true;
+            this.SearchTileButtonPrezenta.CheckedState.Parent = this.SearchTileButtonPrezenta;
+            this.SearchTileButtonPrezenta.CustomImages.Parent = this.SearchTileButtonPrezenta;
+            this.SearchTileButtonPrezenta.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.SearchTileButtonPrezenta.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.SearchTileButtonPrezenta.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.SearchTileButtonPrezenta.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.SearchTileButtonPrezenta.DisabledState.Parent = this.SearchTileButtonPrezenta;
+            this.SearchTileButtonPrezenta.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.SearchTileButtonPrezenta.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.SearchTileButtonPrezenta.ForeColor = System.Drawing.Color.White;
+            this.SearchTileButtonPrezenta.HoverState.Parent = this.SearchTileButtonPrezenta;
+            this.SearchTileButtonPrezenta.Location = new System.Drawing.Point(4, 205);
+            this.SearchTileButtonPrezenta.Name = "SearchTileButtonPrezenta";
+            this.SearchTileButtonPrezenta.ShadowDecoration.Parent = this.SearchTileButtonPrezenta;
+            this.SearchTileButtonPrezenta.Size = new System.Drawing.Size(92, 18);
+            this.SearchTileButtonPrezenta.TabIndex = 17;
+            this.SearchTileButtonPrezenta.Text = "Cautare";
+            this.SearchTileButtonPrezenta.Click += new System.EventHandler(this.SearchTileButtonPrezenta_Click);
+            // 
+            // DataGridViewPrezenta
+            // 
+            this.DataGridViewPrezenta.AllowUserToResizeRows = false;
+            dataGridViewCellStyle61.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle61.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            dataGridViewCellStyle61.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle61.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle61.SelectionForeColor = System.Drawing.Color.White;
+            this.DataGridViewPrezenta.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle61;
+            this.DataGridViewPrezenta.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DataGridViewPrezenta.BackgroundColor = System.Drawing.Color.Black;
+            this.DataGridViewPrezenta.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DataGridViewPrezenta.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DataGridViewPrezenta.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle62.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle62.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle62.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle62.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle62.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridViewPrezenta.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle62;
+            this.DataGridViewPrezenta.ColumnHeadersHeight = 40;
+            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle63.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle63.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle63.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle63.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle63.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle63.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DataGridViewPrezenta.DefaultCellStyle = dataGridViewCellStyle63;
+            this.DataGridViewPrezenta.EnableHeadersVisualStyles = false;
+            this.DataGridViewPrezenta.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridViewPrezenta.Location = new System.Drawing.Point(4, 300);
+            this.DataGridViewPrezenta.Margin = new System.Windows.Forms.Padding(2);
+            this.DataGridViewPrezenta.Name = "DataGridViewPrezenta";
+            this.DataGridViewPrezenta.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle64.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle64.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            dataGridViewCellStyle64.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle64.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle64.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle64.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridViewPrezenta.RowHeadersDefaultCellStyle = dataGridViewCellStyle64;
+            this.DataGridViewPrezenta.RowHeadersVisible = false;
+            this.DataGridViewPrezenta.RowHeadersWidth = 51;
+            this.DataGridViewPrezenta.RowTemplate.Height = 30;
+            this.DataGridViewPrezenta.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.DataGridViewPrezenta.Size = new System.Drawing.Size(1010, 505);
+            this.DataGridViewPrezenta.TabIndex = 22;
+            this.DataGridViewPrezenta.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.Black;
+            this.DataGridViewPrezenta.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.DataGridViewPrezenta.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.White;
+            this.DataGridViewPrezenta.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.DataGridViewPrezenta.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.DataGridViewPrezenta.ThemeStyle.BackColor = System.Drawing.Color.Black;
+            this.DataGridViewPrezenta.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridViewPrezenta.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.DataGridViewPrezenta.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DataGridViewPrezenta.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.DataGridViewPrezenta.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DataGridViewPrezenta.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DataGridViewPrezenta.ThemeStyle.HeaderStyle.Height = 40;
+            this.DataGridViewPrezenta.ThemeStyle.ReadOnly = false;
+            this.DataGridViewPrezenta.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.Black;
+            this.DataGridViewPrezenta.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DataGridViewPrezenta.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.DataGridViewPrezenta.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
+            this.DataGridViewPrezenta.ThemeStyle.RowsStyle.Height = 30;
+            this.DataGridViewPrezenta.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.DataGridViewPrezenta.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
+            // 
+            // NoteDataGridView
+            // 
+            this.NoteDataGridView.AllowUserToResizeRows = false;
+            dataGridViewCellStyle57.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle57.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            dataGridViewCellStyle57.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle57.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle57.SelectionForeColor = System.Drawing.Color.White;
+            this.NoteDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle57;
+            this.NoteDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.NoteDataGridView.BackgroundColor = System.Drawing.Color.Black;
+            this.NoteDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.NoteDataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.NoteDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle58.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle58.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle58.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle58.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.NoteDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle58;
+            this.NoteDataGridView.ColumnHeadersHeight = 40;
+            dataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle59.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle59.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle59.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle59.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle59.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle59.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.NoteDataGridView.DefaultCellStyle = dataGridViewCellStyle59;
+            this.NoteDataGridView.EnableHeadersVisualStyles = false;
+            this.NoteDataGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.NoteDataGridView.Location = new System.Drawing.Point(6, 313);
+            this.NoteDataGridView.Margin = new System.Windows.Forms.Padding(2);
+            this.NoteDataGridView.Name = "NoteDataGridView";
+            this.NoteDataGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle60.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle60.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            dataGridViewCellStyle60.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle60.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle60.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle60.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.NoteDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle60;
+            this.NoteDataGridView.RowHeadersVisible = false;
+            this.NoteDataGridView.RowHeadersWidth = 51;
+            this.NoteDataGridView.RowTemplate.Height = 30;
+            this.NoteDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.NoteDataGridView.Size = new System.Drawing.Size(1010, 498);
+            this.NoteDataGridView.TabIndex = 20;
+            this.NoteDataGridView.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.Black;
+            this.NoteDataGridView.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.NoteDataGridView.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.White;
+            this.NoteDataGridView.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.NoteDataGridView.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.NoteDataGridView.ThemeStyle.BackColor = System.Drawing.Color.Black;
+            this.NoteDataGridView.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.NoteDataGridView.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.NoteDataGridView.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.NoteDataGridView.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.NoteDataGridView.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.NoteDataGridView.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.NoteDataGridView.ThemeStyle.HeaderStyle.Height = 40;
+            this.NoteDataGridView.ThemeStyle.ReadOnly = false;
+            this.NoteDataGridView.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.Black;
+            this.NoteDataGridView.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.NoteDataGridView.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.NoteDataGridView.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
+            this.NoteDataGridView.ThemeStyle.RowsStyle.Height = 30;
+            this.NoteDataGridView.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.NoteDataGridView.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
+            // 
             // FormProfesor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -537,6 +902,8 @@
             this.contactProf.PerformLayout();
             this.detaliiPersonaleProf.ResumeLayout(false);
             this.detaliiPersonaleProf.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewPrezenta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NoteDataGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -571,5 +938,17 @@
         private System.Windows.Forms.Label lblAcademicTitluProf;
         private System.Windows.Forms.Label lblContactTitluProf;
         private System.Windows.Forms.Label lblDetaliiPersonaleTitluProf;
+        private System.Windows.Forms.TextBox SearchtextBoxPrezenta;
+        private System.Windows.Forms.ListBox listBoxPrezenta;
+        private Guna.UI2.WinForms.Guna2TileButton SalvareTileButtonPrezenta;
+        private Guna.UI2.WinForms.Guna2TileButton AfisareTileButtonPrezenta;
+        private Guna.UI2.WinForms.Guna2TileButton SearchTileButtonPrezenta;
+        private Guna.UI2.WinForms.Guna2TileButton AfisareTileButton;
+        private Guna.UI2.WinForms.Guna2TileButton SalvareTileButton;
+        private Guna.UI2.WinForms.Guna2TileButton SearchTileButton;
+        private Guna.UI2.WinForms.Guna2TextBox SearchTextBox;
+        private System.Windows.Forms.ListBox ListBoxElevi;
+        private Guna.UI2.WinForms.Guna2DataGridView DataGridViewPrezenta;
+        private Guna.UI2.WinForms.Guna2DataGridView NoteDataGridView;
     }
 }

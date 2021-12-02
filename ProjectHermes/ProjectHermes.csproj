@@ -54,42 +54,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormAutentificare.cs">
+    <Compile Include="Classes\Elev.cs" />
+    <Compile Include="Classes\Enumerari.cs" />
+    <Compile Include="Classes\Persoana.cs" />
+    <Compile Include="Classes\Profesor.cs" />
+    <Compile Include="Classes\Staff.cs" />
+    <Compile Include="Forms\FormAutentificare.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAutentificare.Designer.cs">
+    <Compile Include="Forms\FormAutentificare.Designer.cs">
       <DependentUpon>FormAutentificare.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormElev.cs">
+    <Compile Include="Forms\FormElev.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormElev.Designer.cs">
+    <Compile Include="Forms\FormElev.Designer.cs">
       <DependentUpon>FormElev.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProfesor.cs">
+    <Compile Include="Forms\FormProfesor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProfesor.Designer.cs">
+    <Compile Include="Forms\FormProfesor.Designer.cs">
       <DependentUpon>FormProfesor.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FormSecretar.cs">
+    <Compile Include="Forms\FormSecretar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSecretar.Designer.cs">
+    <Compile Include="Forms\FormSecretar.Designer.cs">
       <DependentUpon>FormSecretar.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormAutentificare.resx">
+    <EmbeddedResource Include="Forms\FormAutentificare.resx">
       <DependentUpon>FormAutentificare.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormElev.resx">
+    <EmbeddedResource Include="Forms\FormElev.resx">
       <DependentUpon>FormElev.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProfesor.resx">
+    <EmbeddedResource Include="Forms\FormProfesor.resx">
       <DependentUpon>FormProfesor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSecretar.resx">
+    <EmbeddedResource Include="Forms\FormSecretar.resx">
       <DependentUpon>FormSecretar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -136,6 +141,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\WStaff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fisiere\9A.txt" />
+    <Content Include="Fisiere\DateElevi.txt" />
+    <Content Include="Fisiere\SituatieScolara.txt" />
+    <Content Include="Fisiere\Structura_an.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
